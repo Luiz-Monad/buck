@@ -20,8 +20,8 @@ java_library(
         ":red": [],
         "DEFAULT": [],
     }),
-    source = "6",
-    target = "6",
+    source = "7",
+    target = "7",
     visibility = [
         "PUBLIC",
     ],

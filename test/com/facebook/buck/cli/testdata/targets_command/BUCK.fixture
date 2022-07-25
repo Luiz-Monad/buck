@@ -1,8 +1,8 @@
 java_library(
     name = "test-library",
     srcs = [],
-    source = "6",
-    target = "6",
+    source = "7",
+    target = "7",
     visibility = [
         "PUBLIC",
     ],
