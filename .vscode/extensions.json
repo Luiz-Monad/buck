@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "onqel.vscode-buck",
+        "moshfeu.compare-folders",
+        "eamodio.gitlens",
+        "ryu1kn.partial-diff",
+        "vscjava.vscode-java-pack"
+    ]
+}

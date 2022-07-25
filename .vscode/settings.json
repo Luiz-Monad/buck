@@ -1,0 +1,14 @@
+{
+    "buck.projectConfig": {
+        "projectPath": "/home/monad/Desktop/deepspeech/tensorflow",
+        "flavor": [],
+        "target": "",
+        "platform": "linux-x86_64"
+    },
+    "files.associations": {
+        "WORKSPACE": "starlark",
+        "BUILD": "starlark",
+        "*.BUILD": "starlark",
+        "*.bzl": "starlark"
+    },
+}
