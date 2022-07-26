@@ -100,7 +100,6 @@ public final class BuckDaemon {
     if (socketPath.startsWith("local:")) {
       socketPath = socketPath.substring("local:".length());
     }
-    SecurityManager securityManager = System.getSecurityManager();
     NGServer server =
         new NGServer(
             new NGListeningAddress(socketPath),
@@ -117,7 +116,6 @@ public final class BuckDaemon {
       // process would live forever as a zombie. We catch the exception, re-instate the original
       // security manager (because NailGun has replaced it with one that blocks System.exit, and
       // doesn't restore the original if an exception occurs), and exit.
-      System.setSecurityManager(securityManager);
       LOG.error(e, "Exception thrown in NailGun server.");
     }
     System.exit(0);

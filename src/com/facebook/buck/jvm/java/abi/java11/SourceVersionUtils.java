@@ -84,6 +84,7 @@ public class SourceVersionUtils {
       case "10":
         return SourceVersion.RELEASE_10;
       case "11":
+      case "17":
         return SourceVersion.RELEASE_11;
       default:
         throw new HumanReadableException("target %s not supported", target);

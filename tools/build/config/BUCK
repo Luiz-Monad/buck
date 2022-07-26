@@ -11,7 +11,7 @@ config_setting(
 config_setting(
     name = "java_11",
     values = {
-        "java.target_level": "11",
+        "java.target_level": "17",
     },
     visibility = [
         "PUBLIC",
